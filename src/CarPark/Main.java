@@ -94,6 +94,7 @@ public class Main {
                             StringUtils.center(vehicle.getEnterTime().getMinutes(),4),
                             StringUtils.center(String.valueOf(vehicle.getType()),20));
                 }
+                continue;
             }
             else if (activity == 8){
                 System.out.println("Enter year : ");
